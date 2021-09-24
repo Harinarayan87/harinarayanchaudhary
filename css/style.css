@@ -86,7 +86,7 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
-  background-position: right center;
+  background-position: 25% 75%;
 }
 
 .overlay-mf {
