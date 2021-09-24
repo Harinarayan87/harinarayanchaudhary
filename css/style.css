@@ -87,6 +87,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  background-width: device-width;
 }
 
 .overlay-mf {
