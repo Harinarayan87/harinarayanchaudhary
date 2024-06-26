@@ -308,9 +308,6 @@ section .button button:hover{
 }
 /*Contact Css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-.contact{
-background-color: #DFDBE5;
-}
 
 dbl-field{
   display: flex;
