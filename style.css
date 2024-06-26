@@ -189,8 +189,6 @@ section .title{
 }
 section .title span{
   color: #0E2431;
-  font-size: 30px;
-  font-weight: 600;
   position: relative;
   padding-bottom: 8px;
 }
