@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.top{
+    background: #ddf4cd;
+    padding: 10px 0;
+}
+.con{
+    width: 1200px;
+    margin: auto;
+    /* padding: 10px 0; */
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between; /*made two ul in the start and end*/
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+    /* made list inline under both ul*/
+}
+.header{
+    padding: 15px 0;
+}
+.logo{
+    width: 640px;
+}
+.qr{
+    width: 64px;
+}
+nav{
+    background: #024fa2;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: #fff;
+}
+/* dropdown */
+nav ul li{
+    display: inline;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    display: none;
+    background: #fff;
+    box-shadow: 0 12px 30px -2px rgba(0, 0, 0, 0.1);
+    
+}
+.dropdown2{
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    width: 250px;
+    display: none;
+    background: #fff;
+    box-shadow: 0 12px 30px -2px rgba(0, 0, 0, 0.1);
+    
+}
+.dropdown li{
+    display: block;
+    border-top: 1px solid #ccc;
+    line-height: 35px;
+}
+.dropdown li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+}
+li:hover .dropdown{
+    display: block;
+}
+.subli:hover .dropdown2{
+    display: block;
+}
+
+
+.mail a{
+    background: #00a10d;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.banner{
+    padding: 20px 0;
+}
+.b-left{
+    width: 30%;
+}
+.green{
+    color: #00a10d;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.b-left p{
+    line-height: 1.5;
+}
+.b-right{
+    width: 65%;
+}
+.b-right img{
+    width: 100%;
+}
+.btn{
+    background: #024fa2;
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 150px;
+}
+.btn:hover{
+    background: #00a10d;
+}
+.icon{
+    padding: 5px;
+}
+.block1{
+    text-align: center;
+    margin-top: 50px;
+}
+.vision{
+    width: 70%;
+    margin: auto;
+    padding: 40px 0;
+}
+.w-100{
+    width: 100%;
+    display: block;
+}
+.footer-mid{
+    background: #024fa2;
+    padding: 30px 0;
+    color: #fff;
+}
+.f_box h3{
+    padding: 0 0 10px 0;
+    color: #d1ecbf;
+}
+.person{
+    width: 100px;
+    padding-right: 10px;
+}
+.f_box li {
+line-height: 30px;
+}
+.bottom{
+    padding: 20px 0;
+}
+.block2_box{
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.block2_box-hover{
+    position: absolute;
+    width: 100%;
+    bottom: -61px;
+    color: white;
+    padding: 15px;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.block2_box-hover:hover{
+    bottom: 0;
+    height: 100%;
+    align-content: end;
+    display: block;
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.quote{
+    background: url(https://www.skbbl.com.np/frontend/images/greenbg.jpg);
+    padding: 80px;
+    margin: 100px 0;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.block3{
+    padding: 0 0 100px 0;
+}
+.block-left{
+    width: 55%;
+}
+.block-right{
+    width: 40%;
+}
+.column{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.blue{
+    color: #024fa2;
+    padding: 15px 0 15px 0;
+}
+.block4{
+    padding: 0 0 50px 0;
+
+}
+.block4-left{
+width: 30%;
+}
+.block4-center{
+width: 30%;
+}
+.block4-right{
+    width: 40%;
+}
+
+
+/* About Page */
+.about{
+    padding: 50px 0;
+}
+.abt-left{
+    width: 45%;
+}
+.abt-right{
+    width: 50%;
+    line-height: 30px;
+}
+.bullets{
+    list-style: disc;
+    padding: 10px 0 20px 30px;
+    line-height: 30px;
+
+}
+.blockquote{
+    padding: 20px 0;
+    font-size: 20px;
+    color: #0000ff;
+}
+.pad{
+    padding: 50px 0;
+}
+.about-top{
+    padding: 24px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
