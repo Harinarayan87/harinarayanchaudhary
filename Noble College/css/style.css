@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: #255f9f;
+    --secondary: #444444;
+    --optional: #30506d;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+ul{
+    list-style: none;
+
+}
+.header{
+    padding: 20px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.right-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    font-size: 11px;
+}
+.right-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    padding-top: 10px;
+    
+}
+.divider{
+    border-right:1px solid #c3c3c3;
+    padding: 0 10px;
+}
+.right-top li a{
+    color: #777777;
+}
+.right-bottom li a{
+    color: #444444;
+}
+
+
+.background{
+    background-color: var(--primary);
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.nav li a{
+    color: #dce7f0;
+    padding: 15px;
+    line-height: 1.6;
+}
+.alert{
+    background: red;
+}
+
+nav ul li{
+    display: inline;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    display: none;
+    background: #52789e;
+    box-shadow: 0 12px 30px -2px rgba(0, 0, 0, 0.1);
+    
+}
+.dropdown li{
+    display: block;
+    border-top: 1px solid #ccc;
+    line-height: 35px;
+}
+.dropdown li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+li:hover .dropdown{
+    display: block;
+}
+.dropdown2{
+    position: absolute;
+    top: 0%;
+    left: 250px;
+    width: 250px;
+    display: none;
+    background: #52789e;
+    box-shadow: 0 12px 30px -2px rgba(0, 0, 0, 0.1);  
+}
+.dropdown2 li{
+    display: block;
+    border-top: 1px solid #ccc;
+    line-height: 35px;
+}
+.dropdown2 li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+}
+.subli:hover .dropdown2{
+    display: block;
+}
+
+
+.banner{
+    margin: 25px 0;
+}
+.w-100{
+    width: 100%;
+    object-fit: cover;
+}
+
+.background2{
+    background: var(--secondary);
+    color: #fff;
+    padding: 20px;
+}
+.background2 h1{
+    font-size: 24px;
+    padding: 0 0 0 10px;
+}
+.background2 p{
+    font-size: 13px;
+    padding: 10px 0 0 10px;
+    width: 80%;
+}
+
+.facilities{
+    margin: 40px 0 20px 0;
+}
+.background3{
+    background: #f5f5f5;
+}
+.blue{
+    border-top: 2px solid var(--primary);
+    width: fit-content;
+    color: #2f506c;
+    font-size: 22px;
+    padding: 5px 15px 0;
+}
+.box{
+    padding: 0 15px;
+}
+.box h3{
+    font-size: 18px;
+    padding: 10px 0;
+    color: #333333;
+    font-weight: 500;
+}
+.box a{
+    font-size: 13px;
+    color: #255f9f;
+    margin-bottom: 20px;
+}
+.box img{
+    border-radius: 4px;
+    border: 2px solid #ddd;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.info{
+    margin: 50px 0 20px 0;
+}
+.left{ 
+width: 30%;
+}
+.center{
+    width: 40%;
+}
+.right{
+    width: 20%;
+}
+.primary{
+    background: var(--primary);
+   
+}
+.yellow{
+    background: #f7b731;
+  
+}
+.green{
+    background: #20bf6b;
+ 
+}
+.red{
+    background: #eb3b5a;
+   
+}
+.l-blue{
+    background: #45aaf2;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin:10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;  
+    width: 350px;
+}
+.center p{
+    font-size: 13px;
+    color: #444444;
+    padding: 0 10px;
+}
+.center h3{
+    font-size: 24px;
+    font-weight: 300px;
+}
+.message{
+    padding: 20px 0 0 20px;
+}
+.link li a{
+    color:var(--primary);
+    padding: 0 0 20px 20px;
+    font-size: 13px;
+
+}
+.bottom{
+    margin: 20px 0;
+}
+
+
+.footer h3{
+    font-size: 24px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+.footer ul li a{
+    font-size: 13px;
+    padding: 0 0 20px;
+}
+.icon{
+    padding: 0 10px;
+}
+.icon2{
+    padding: 0 0 0 140px;
+}
