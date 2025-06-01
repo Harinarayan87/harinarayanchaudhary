@@ -1,0 +1,101 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .next-page-button1 {
+            position: fixed;
+            bottom: 300px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: linear-gradient(45deg, #4c07bc, #8302ba);
+            color: white;
+            font-weight: 500;
+            letter-spacing: 1px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            opacity: 0;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 45, 105, 0.5),
+                        0 0 30px rgba(255, 45, 105, 0.3),
+                        inset 0 0 10px rgba(255, 255, 255, 0.3);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .next-page-button1:hover {
+            transform: scale(1.05);
+            box-shadow: 0 7px 25px rgba(255, 45, 105, 0.7),
+                        0 0 40px rgba(255, 45, 105, 0.5),
+                        inset 0 0 15px rgba(255, 255, 255, 0.4);
+        }
+    
+        .next-page-button1:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/ZUiY.gif" alt="stars" class="star">
+    <img src="images/5l03.gif" alt="ballon" class="ballon">
+    <div class="container">
+        <div class="birthdayCard">
+            <div class="cardFront">
+                 <img src="images/awnnu.jpg" class="hover-photo" />
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">to you!</h3>
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div>
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="cake"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="cardInside">
+                    <img src="images/6ob.gif" alt="confetti" class="confetti">
+
+                <div class="inside-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">Sana</h3>
+                </div>
+                <div class="wishes">
+                    <p>Like the moon lights up the night,<br>
+                       You brighten every part of my life.<br>
+                       On your birthday, I wish you peace,<br>
+                       Moments of magic, love that won’t cease.<br>
+                    Happy Birthday to the one who makes my heart sing. 🎉💫</p>
+                    </div>
+            </div>
+        </div>
+         <button class="next-page-button1" id="nextPageBtn1" style="opacity: 0.9927;">open the above card and click here for Surprise</button>
+    </div>
+
+    <img src="images/4SHX.gif" alt="cat" class="cat">
+    <script>
+                 const nextPageBtn1 = document.getElementById('nextPageBtn1');
+    nextPageBtn1.addEventListener('click', () => {
+        window.location.href = 'love/index.html'; // Change this URL to the actual next page
+    });
+
+    gsap.to(nextPageBtn1, {
+        opacity: 1,
+        delay: 3 + text.length * 0.1 + 1.5,
+        duration: 0.8,
+        ease: "elastic.out(1, 0.3)"
+    });
+    </script>
+
+
+</body></html>
