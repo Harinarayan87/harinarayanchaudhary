@@ -49,7 +49,7 @@ img1 {
     transition: 4s;
 }
 
-.birthdayCard:hover {
+.birthdayCard:hover,.birthdayCard:active {
     transform: perspective(2500px) rotate(5deg);
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, .15), 0 10px 100px rgba(0, 0, 0, 0.3);
 }
@@ -58,20 +58,33 @@ img1 {
 .birthdayCard:hover .cardFront {
     transform: rotateY(-160deg);
 }
+.birthdayCard:active .cardFront {
+    transform: rotateY(-160deg);
+}
 
 .birthdayCard:hover .front-text {
     display: none;
 }
-
+.birthdayCard:active .front-text {
+    display: none;
+}
 .birthdayCard:hover .wrap-deco {
+    display: none;
+}
+.birthdayCard:active .wrap-deco {
     display: none;
 }
 
 .birthdayCard:hover .wrap-decoTwo {
     display: none;
 }
-
+.birthdayCard:active .wrap-decoTwo {
+    display: none;
+}
 .birthdayCard:hover .plate {
+    display: none;
+}
+.birthdayCard:active .plate {
     display: none;
 }
 
